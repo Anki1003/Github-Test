@@ -24,9 +24,9 @@ for (i=0; i<=12; i++){
 console.log(sum);// outcome 42 (2 +4 + 6 + 8 + 10 + 12)
 
 
-// sum up odd numbers from 0 to 10.
+// sum up odd numbers from 3 to 10.
 
-let counter1 = 1;
+let counter1 = 3;
 
 let sum1 =0;
 
@@ -39,7 +39,7 @@ for (i=0; i<=10; i++){
     counter1++;
 }
 
-console.log(sum1);
+console.log(sum1); // (outcome : 3 + 5 + 7 + 9 = 24)
 
 
 
