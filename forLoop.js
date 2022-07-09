@@ -41,6 +41,20 @@ for (i=0; i<=10; i++){
 
 console.log(sum1); // (outcome : 3 + 5 + 7 + 9 = 24)
 
+const speech = "trying to count the total letters of the string";
 
+var count21 = 0;
+
+for (var i=0; i<speech.length; i++){
+
+  var char = speech[i];
+
+  if (char == " " && speech[i -1] != " "){
+
+      count21 ++ ;
+  }
+} count21++ ;
+
+console.log(count21);
 
 
